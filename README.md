@@ -18,7 +18,7 @@ This is a simple library to be included in your C/C++ projects to provide ring b
 * len------>size to be read from ringbuffer
 * return------>number of actual bytes read
 
-#### uint16_t rbuff_write(rbuff_t *r, uint16_t size)
+#### uint16_t rbuff_write(rbuff_t *r, uint8_t *in, uint16_t size)
 ###### write in to the ring buffer
 ### Parameters
 * r------>ring buffer structure 
