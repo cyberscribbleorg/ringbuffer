@@ -31,8 +31,8 @@ typedef unsigned short uint16_t;
 typedef struct _rbuff_t{
     uint8_t *ptr;
     uint16_t mask;
-    uint8_t read;
-    uint8_t write;
+    uint16_t read;
+    uint16_t write;
 }rbuff_t;
 
 /**
